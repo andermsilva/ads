@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='utf-8'/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name='author' content=''/>
+        <meta name='description' content=''/>
+        <meta name='keywords' content=''/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+            rel="stylesheet" />
+        <link
+            href='https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap'
+            rel='stylesheet'>
+        <link rel="shortcut icon" href="images/css3.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <title>Responsivo CSS</title>
+
+        <style>
+            body {
+                font-family:Ubuntu;
+                margin: 0px;
+                padding: 0px;
+                /* background-color: #ccc; */
+              
+                
+                }
+            header{
+             width: 100%;
+              height: 100px;
+              text-align: center;
+              background-color: #242222;
+              color: #fff;
+            }
+            nav{
+                display: block;
+                height: 43px;
+                padding: 0;
+               background-color: #3A3632;
+            }
+            ul{
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+              box-sizing: border-box;
+              margin-top: 0;
+              padding: 5px;
+              width:540px;
+              height: 42px;
+           
+             
+            
+            }
+            li {
+               list-style-type: none;
+               float: left;
+            }
+            li a{
+                display: block;
+               
+                padding-top: 5px;
+                padding-bottom:5px;
+               
+                padding-left: 8px;
+                padding-right: 8px;
+                margin-left: 3px;
+                color: #fff;
+                text-decoration: none;
+            }
+            li a:hover{
+                text-decoration: underline;
+                color: #f1eded;
+            }
+            section{
+                
+                width:98%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: 5px;              
+                padding-right: 5px;              
+            }
+            img{
+                
+                width: 350px;
+                
+            }
+            figure{
+                display: block;
+                margin-left: 0;
+                margin-right: 10px;
+                float: left;
+               
+            }
+            figcaption {
+                background-color: #f7f7f7;
+                font-size: 12px;
+                width: 350px;
+
+            }
+            .first{
+                padding-top:12px;
+                
+            }
+            h4{
+                padding: 0;
+            }
+            p{
+                text-align: justify;
+                text-indent: 30px;
+            }
+            .small{
+                color: #2861ff;
+                margin-bottom: 20px;
+            }
+            cite a{
+                color: #2861ff;
+                text-decoration: none;
+            }
+          footer{
+              
+             
+               background-color: #3A3632;
+              
+              
+              text-align: center;
+              padding-top: 8px;
+            
+              height: 115px;
+             
+            }
+            footer p{
+                
+                margin-top: 0;
+                padding-bottom: 0;
+                text-align: center;
+            }
+            div{
+              width: 100%;
+              display: block;
+              justify-content: space-evenly;
+              
+          }
+          a img{
+              display: inline-block;
+              width: 85px;
+              
+            }
+            a{
+                color: white;
+            }
+            a:hover{
+             text-decoration: underline;
+            }
+            footer a{
+                text-decoration: none;
+            }
+            h4{
+                margin-bottom: -16px;
+                padding: 0;
+            }
+            aside{
+                display: none;
+            }
+            @media screen and (max-width:768px )
+             and (min-width:750px) {
+                nav{
+                    display: none;
+                }
+                figure{
+                    display:none;
+                }
+                section{
+                    font-size: 0.9em;
+                    padding-top: 0;
+                   
+                   
+                }
+                
+                aside{
+                    display: block;
+                    position:sticky;
+                    top:0;                    
+                    float: left;
+                    width: 130px;
+                    height:100vh;
+                    background-color: #3A3632;
+                    
+                    
+                }
+
+                aside ul li{
+                    
+                    list-style-type: none;
+                    float: none;
+                    }
+             
+                header{
+                   display: inline-block;
+                   height: 50px;
+                  
+                 
+                }
+    
+                    section{
+                    width: 615px;
+                    margin-left: 135px;
+                
+                
+                    
+                }
+                .title{
+                    font-size: 13px;
+                    margin-bottom: 0;
+                }
+                
+                footer{
+                    height: 120px;
+                    
+                    
+                }
+               
+            }
+               
+        
+
+            @media screen and (max-width:750px){
+                nav{
+                    display: none;
+                }
+                figure{
+                    display:none;
+                }
+                header{
+                    display: none;
+                }
+
+                aside{
+                    display: block;
+                    background-color: #3A3632;
+                    height:200px;
+                    
+                }
+
+                ul{
+                    width: 100%;
+                    position: relative;
+                    box-sizing: border-box;
+                    margin-top: 0;
+                    padding: 5px;
+                   
+                  
+                    
+           
+               }
+
+                aside ul li{
+                    width:100%;
+                    text-align: center;
+                    list-style-type: none;
+                    border-bottom: 1px solid white;
+                    float: none;
+                }
+                .first{
+                padding-top:0;
+                
+            }
+              
+        }
+
+     
+         
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav>
+
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#vant"> Vestibular</a></li>
+                    <li><a href="#desv"> Graduação </a></li>
+                    <li><a href="#pesquisadores"> Extensão </a></li>
+                    <li><a href="#pesquisadores"> Professores </a></li>
+                    <li><a href="#Contato"> Contatos </a></li>
+
+                </ul>
+
+
+            </nav>
+            <h2 class="title">
+
+                PRIVACY BY DESIGN E BY DEFAULT: ENTENDA A DIFERENÇA
+            </h2>
+            <br />
+
+        </header>
+
+        <aside>
+            <ul>
+                <li><a href="#home"> Home</a></li>
+                <li><a href="#vant"> Vestibular</a></li>
+                <li><a href="#desv"> Graduação </a></li>
+                <li><a href="#pesquisadores"> Extensão </a></li>
+                <li><a href="#pesquisadores"> Professores </a></li>
+                <li><a href="#Contato"> Contatos </a></li>
+
+            </ul>
+        </aside>
+        <section>
+
+            <figure>
+                <img class="img" src="images/image-htmlcss.jpg" />
+                <figcaption>
+                    Conceitos que são fundamentais para a proteção de dados
+                    dentro
+                    das
+                    empresas
+
+                </figcaption>
+            </figure>
+
+            <p class="first tt">
+
+                Os conceitos <span class="stilo-italico">Privacy by Design</span>
+                (privacidade desde a concepção) e <span class="stilo-italico">Privacy
+                    by Default</span> (privacidade
+                por padrão) são muito falados quando o assunto é a proteção de
+                dados e a privacidade na internet. Você sabe o que eles
+                significam? Os dois conceitos são formas de se adequar às leis
+                de
+                proteção de dados e devem ser conhecidos por empresas de
+                tecnologia,
+                portais de notícias, lojas online, agências, entre outras
+                empresas
+                que
+                fazem a coleta de dados.
+                Os conceitos <span class="stilo-italico">Privacy by Design</span>
+                (privacidade desde a concepção) e <span class="stilo-italico">Privacy
+                    by Default</span> (privacidade
+                por padrão) são muito falados quando o assunto é a proteção de
+                dados e a privacidade na internet. Você sabe o que eles
+                significam? Os dois conceitos são formas de se adequar às leis
+                de
+                proteção de dados e devem ser conhecidos por empresas de
+                tecnologia,
+                portais de notícias, lojas online, agências, entre outras
+                empresas
+                que
+                fazem a coleta de dados.
+
+            </p>
+        </section>
+        <section>
+
+            <h4 class="color-text stilo-italico">
+
+                Privacy by Design
+            </h4><br/>
+
+                <p>
+
+                    O conceito surgiu no Canadá e é muito usado na Europa em
+                    função
+                    da
+                    GDPR.
+                    Prevê que qualquer projeto de uma empresa que envolva o
+                    processamento de
+                    dados pessoais deve ser realizado mantendo a proteção e a
+                    privacidade
+                    dos dados a cada passo. Isso inclui o desenvolvimento de
+                    produtos,
+                    desenvolvimento de software, sistemas de TI e mais. Na
+                    prática,
+                    isso
+                    significa que a organização deve garantir que a privacidade
+                    seja
+                    incorporada ao sistema durante todo o ciclo de vida. Também
+                    deve
+                    assegurar a segurança das informações de ponta a ponta. O
+                    caso
+                    envolvendo o Facebook e a Cambridge Analytica ocorreu porque
+                    não
+                    houve a
+                    proteção de dados em uma das etapas do processo.
+                </p>
+            </section>
+
+            <section>
+
+                <p>
+                    O <span class="stilo-italico">Privacy by Design</span> é
+                    proativo e
+                    não reativo. Antecipa os problemas
+                    e
+                    diminui o risco de vazamentos de dados. Os projetos são
+                    pensados
+                    para
+                    que o usuário tenha o controle para alterar as configurações
+                    padrão
+                    e
+                    optar por fornecer ou não seus dados, e ainda assim
+                    conseguir
+                    utilizar o produto ou serviço. Sempre que possível, as
+                    transações
+                    que
+                    envolvam dados pessoais devem serem feitas com dados não
+                    identificáveis,
+                    ou seja, que não permitam saber quem é o titular daquela
+                    informação.
+                </p>
+            </section>
+            <section>
+
+                <h4 class="color-text stilo-italico">
+
+                    Privacy by Default
+                </h4>
+                <p>
+
+                    Esse conceito significa que, assim que um produto ou serviço
+                    for
+                    lançado
+                    ao público, as configurações mais seguras de privacidade
+                    deverão
+                    ser
+                    aplicadas por padrão, sem nenhuma entrada manual do usuário
+                    final.
+                    Além
+                    disso, todos os dados pessoais fornecidos pelo usuário para
+                    permitir
+                    o
+                    uso ideal de um produto devem ser mantidos apenas pelo tempo
+                    necessário
+                    para fornecer o produto ou serviço. Se mais informações do
+                    que o
+                    necessário para fornecer o serviço forem divulgadas, esse
+                    conceito
+                    será
+                    violado.
+                </p>
+
+            </section>
+            <section>
+
+                <p>
+
+
+                    A proteção de dados agora é parte integrante do
+                    desenvolvimento
+                    tecnológico e também da maneira como um produto ou serviço é
+                    criado.
+                    Para as empresas que não estão familiarizadas com esses
+                    conceitos, a
+                    LGPD irá provocar uma mudança significativa na cultura, que
+                    resultará em
+                    mais transparência e credibilidade na relação com os
+                    clientes. O
+                    <span class="stilo-italico">Privacy by Design e by Default</span>
+                    irá estar
+                    presente em empresas públicas e
+                    privadas, multinacionais ou startups, todas que processam de
+                    alguma
+                    forma os dados pessoais de seus clientes, colaboradores e
+                    fornecedores.
+                </p>
+            </section>
+            <section class="small">
+
+                <cite>
+                    Fonte:
+                    <a
+                        href="https://privacytech.com.br/noticias/privacy-by-design-e-by-default-entenda-a-diferenca,322343.jhtml"
+                        target="_blank" title="https://privacytech.com.br">
+                        https://privacytech.com.br/noticias/privacy-by-design-e-by-default-entenda-a-diferenca,322343.jhtml
+                    </a>
+                </cite>
+            </section>
+            <footer>
+                <div>
+                    <a
+                        href='http://www.fatecpp.edu.br/curso/analise-e-desenvolvimento-de-sistemas/'
+                        target="_blank">
+                        <img src="./images/logoADS.png" alt="">
+                    </a>
+                    <a href='https://www.cps.sp.gov.br/' target="_blank">
+                        <img src="./images/cropped-logo-cps.png" alt="">
+                    </a>
+                    <a href='http://www.fatecpp.edu.br/' target="_blank">
+                        <img src="./images/logFatecRed.png" alt="">
+                    </a>
+                </div>
+                <p>
+                    <a href="https://github.com/andermsilva">
+
+                        Desenvolvido por Anderson Marques da Silva
+                    </a>
+                </p>
+
+            </footer>
+        </body>
+    </html>
